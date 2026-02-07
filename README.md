@@ -1,5 +1,7 @@
 # Distributed Rate Limiter for Go
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/virgiliusnanamanek02/rate-limiter-go)](https://goreportcard.com/report/github.com/virgiliusnanamanek02/rate-limiter-go)
+
 A high-performance, distributed rate-limiting library for Go, powered by Redis and Lua scripting. This library implements the **Sliding Window Counter** algorithm to ensure precision and atomicity across multiple service instances.
 
 ## 🚀 Features
@@ -13,7 +15,7 @@ A high-performance, distributed rate-limiting library for Go, powered by Redis a
 ## 🛠 Installation
 
 ```bash
-go get github.com/virgiliusnanamanek02/rate-limiter-go
+go get github.com/virgiliusnanamanek02/rate-limiter-go@v1.0.1
 
 ```
 
