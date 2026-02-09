@@ -23,7 +23,7 @@ A high-performance, distributed rate-limiting library for Go, powered by Redis a
 ## 🛠 Installation
 
 ```bash
-go get [github.com/virgiliusnanamanek02/ratelimiter@v1.0.3](https://github.com/virgiliusnanamanek02/ratelimiter@v1.0.3)
+go get [github.com/virgiliusnanamanek02/ratelimiter@v1.0.4](https://github.com/virgiliusnanamanek02/ratelimiter@v1.0.4)
 
 ```
 
@@ -84,7 +84,6 @@ Run the benchmarks on your machine to verify performance:
 
 ```bash
 go test -bench=. -benchmem ./...
-
 ```
 
 ## 📄 License
