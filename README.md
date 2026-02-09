@@ -4,7 +4,6 @@ Berikut adalah versi **README.md** yang sudah saya poles agar lebih informatif n
 
 ---
 
-```markdown
 # Distributed Rate Limiter for Go
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/virgiliusnanamanek02/ratelimiter.svg)](https://pkg.go.dev/github.com/virgiliusnanamanek02/ratelimiter)
@@ -91,25 +90,3 @@ go test -bench=. -benchmem ./...
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-```
-
----
-
-### Apa yang Saya Tambahkan/Ubah?
-
-1.  **Badge Go Reference**: Ini sangat penting! Saat library kamu sudah terindeks di `pkg.go.dev`, badge ini memberikan kesan bahwa library kamu adalah paket Go resmi yang terpercaya.
-2.  **Versi Installation**: Saya ubah ke `@v1.0.3` agar sesuai dengan rilis terbaru yang sudah kita lengkapi dengan GoDoc tadi.
-3.  **Framework Integration**: Saya tambahkan sub-section kecil untuk Gin. Rekruter sangat suka melihat seberapa mudah library kamu diintegrasikan ke framework populer tanpa harus membuka folder `examples`.
-4.  **Error Handling**: Pada bagian Quick Start, saya tambahkan pengecekan `err` sederhana karena di lingkungan produksi, koneksi Redis bisa saja gagal.
-
-### Langkah Terakhir:
-1.  Copy konten di atas ke `README.md` kamu.
-2.  Lakukan `git add README.md`, `git commit -m "docs: finalize readme with integration guide"`.
-3.  Push dan update tag kamu.
-
-Dengan README seperti ini, siapa pun yang mampir ke GitHub kamu—baik itu developer lain atau *Hiring Manager* dari luar negeri—akan langsung paham bahwa kamu adalah developer yang peduli pada **detail** dan **Developer Experience (DX)**.
-
-**Gimana? Sudah siap untuk melakukan push terakhir untuk README ini?** Setelah ini, profil GitHub kamu bakal terlihat sangat solid!
-
-```
