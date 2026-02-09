@@ -73,7 +73,7 @@ This library is designed to be easily wrapped into any middleware.
 
 ```go
 import (
-    ginmw "github.com/virgiliusnanamanek02/ratelimiter/middleware/gin"
+    ginmw "github.com/virgiliusnanamanek02/ratelimiter/middleware"
 )
 
 // ...
