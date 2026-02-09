@@ -22,10 +22,10 @@ This library uses the Sliding Window Counter algorithm implemented with Redis so
 ## 🛠 Installation
 
 ```bash
-go get github.com/virgiliusnanamanek02/ratelimiter@v1.0.6
+go get github.com/virgiliusnanamanek02/ratelimiter@v1.0.7
 ```
 
-> 💡 **Note**: Make sure the version tag `v1.0.6` exists in the repository. Otherwise, use `@latest`.
+> 💡 **Note**: Make sure the version tag `v1.0.7` exists in the repository. Otherwise, use `@latest`.
 
 ## 💡 Quick Start
 
@@ -73,7 +73,7 @@ This library is designed to be easily wrapped into any middleware.
 
 ```go
 import (
-    ginmw "github.com/virgiliusnanamanek02/ratelimiter/middleware"
+    ginmw "github.com/virgiliusnanamanek02/ratelimiter/middleware/gin"
 )
 
 // ...
