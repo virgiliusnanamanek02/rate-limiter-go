@@ -21,10 +21,10 @@ This library uses the Sliding Window Counter algorithm implemented with Redis so
 ## 🛠 Installation
 
 ```bash
-go get github.com/vnmchuo/ratelimiter@v1.0.7
+go get github.com/vnmchuo/ratelimiter@v1.0.8
 ```
 
-> 💡 **Note**: Make sure the version tag `v1.0.7` exists in the repository. Otherwise, use `@latest`.
+> 💡 **Note**: Make sure the version tag `v1.0.8` exists in the repository. Otherwise, use `@latest`.
 
 ## 💡 Quick Start
 
